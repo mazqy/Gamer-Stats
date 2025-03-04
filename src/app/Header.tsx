@@ -12,7 +12,7 @@ export default function Header() {
                 </ul>
 
                 <ul className="navbar-list-2">
-                    <li><Image src={accountIco} alt="" /></li>
+                    <li className='accountIcon'><Image  src={accountIco} alt="" /></li>
                     
                 </ul>
             </nav>

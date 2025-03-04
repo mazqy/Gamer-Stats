@@ -13,13 +13,15 @@ body{
 .navbar{
   display: flex;
   flex-direction: row;
+  background-color: #222;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-list{
   display: flex;
   flex-direction: row;
   list-style: none;
-  background-color: #222;
   padding: 5px;
   gap: 5px;
 }
@@ -28,6 +30,10 @@ body{
   padding: 5px;
   transition-duration: .25s;
   border-radius: 10px;
+}
+
+.navbar-list li:hover{
+  cursor: pointer;
 }
 
 .navbar-list li a{
@@ -43,5 +49,25 @@ body{
 .navbar-list-2{
   display: flex;
   flex-direction: row;
+  width: fit-content;
+  padding: 5px;
+
   
+}
+
+.accountIcon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  filter: invert(1);
+}
+.accountIcon:hover{
+  cursor: pointer;
+}
+
+.accountIcon img{
+  width: 30px;
+  height: 30px;
 }
