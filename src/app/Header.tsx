@@ -1,4 +1,5 @@
 import accountIco from '../assets/icons/user-circle.svg';
+import Image from 'next/image';
 export default function Header() {
     return (
         <header>
@@ -11,7 +12,8 @@ export default function Header() {
                 </ul>
 
                 <ul className="navbar-list-2">
-                    <li><img src={accountIco} alt="" /></li>
+                    <li><Image src={accountIco} alt="" /></li>
+                    
                 </ul>
             </nav>
         </header>
